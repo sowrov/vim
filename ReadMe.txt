@@ -4,3 +4,4 @@
 4. go to vim directory, e.i: d:/vim
 5. vim _vimrc
 6. :PluginInstall
+7. Install powerline hack font from you .vim/bundle/fonts folder
