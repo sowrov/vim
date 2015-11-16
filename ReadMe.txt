@@ -1,4 +1,5 @@
-1. Create .vim folder in %USERPROFILE% directory
+Vimrc configuration. Works in both linux and windows.
+1. Create .vim folder in %USERPROFILE% (~/) directory
 2. Create bundle folder under that .vim directory
 3. git clone  https://github.com/VundleVim/Vundle.vim.git
 4. go to vim directory, e.i: d:/vim
