@@ -8,7 +8,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 
 " File tree
 Plugin 'scrooloose/nerdtree'
@@ -46,7 +46,7 @@ Plugin 'sickill/vim-pasta'
 Plugin 'flazz/vim-colorschemes'
 
 "Language specifice plugins
-Plugin 'klen/python-mode', {'for': 'python'}
+"Plugin 'klen/python-mode', {'for': 'python'}
 Plugin 'vim-scripts/python.vim', {'for': 'python'}
 Plugin 'vim-scripts/python_match.vim', {'for': 'python'}
 Plugin 'vim-scripts/pythoncomplete', {'for': 'python'}
@@ -60,6 +60,7 @@ Plugin 'groenewege/vim-less', { 'for': 'less' }
 Plugin 'ap/vim-css-color', { 'for': 'css' }
 Plugin 'hail2u/vim-css3-syntax', { 'for': 'css' }
 Plugin 'fatih/vim-go', { 'for': 'go' }
+Plugin 'vim-airline/vim-airline-themes'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 "Plugin 'L9'
@@ -125,7 +126,7 @@ set nofoldenable " don't fold by default
 set foldlevel=1
 
 " Gui fonts
-set guifont=Hack:h10
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h9
 
 " StatusLine
 set laststatus=2 " show the satus line all the time
@@ -134,10 +135,15 @@ set laststatus=2 " show the satus line all the time
 let mapleader = ','
 let g:mapleader = ','
 
+"python
+"let g:pymode_python = 'python3'
+
 " airline options
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='dark'
+let g:airline_theme='cool'
+
+" ----- end airline -----
 
 "Restore screen size and position
 if has("gui_running")
