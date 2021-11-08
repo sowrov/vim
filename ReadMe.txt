@@ -6,4 +6,5 @@ Vimrc configuration. Works in both linux and windows.
 4. go to vim directory, e.i: d:/vim
 5. vim _vimrc
 6. :PluginInstall
-7. Install powerline hack font from you .vim/bundle/fonts folder
+7. Install powerline "DejaVu\ Sans\ Mono\ for\ Powerline" font from you .vim/bundle/fonts folder
+8. Change the powershell font to the "DejaVu\ Sans\ Mono\ for\ Powerline"
